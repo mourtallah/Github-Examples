@@ -1,3 +1,4 @@
+name: Custom Greeting Action
 on: [push]
 
 jobs:

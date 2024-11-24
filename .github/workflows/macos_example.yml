@@ -1,5 +1,4 @@
 name: macOS Example Workflow
-
 on:
   schedule:
     - cron: "*/5 * * * *"
@@ -8,4 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo Current Timer
-        run: echo "The Current Time is ${date}"
+        run: echo "The Current Time is $(date)"
+      
